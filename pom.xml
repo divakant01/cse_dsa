@@ -16,6 +16,8 @@
 
     <modules>
         <module>sorting</module>
+        <module>divide_conquer</module>
+        <module>data_structure</module>
     </modules>
 
 
