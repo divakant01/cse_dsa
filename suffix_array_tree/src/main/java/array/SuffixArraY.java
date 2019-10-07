@@ -69,7 +69,6 @@ public class SuffixArraY {
         if (text==null || text.isEmpty())
             return new SA[]{};
 
-        int[] sa=new int[length];
         SA[] suffixArray=new SA[length];
 
         for (int i = 0; i < length; i++) {
@@ -80,4 +79,23 @@ public class SuffixArraY {
 
         return suffixArray;
     }
+
+   /* int[] build(String text){
+
+        int length=text.length();
+
+        if (text==null || text.isEmpty())
+            return new int[]{};
+
+        int[] suffixArray=new int[length];
+
+        for (int i = 0; i < length; i++) {
+            suffixArray[i]=;
+        }
+
+        Arrays.sort(suffixArray);
+
+        return suffixArray;
+    }*/
+
 }
