@@ -1,2 +1,2 @@
-# cse_dsa
+# DSA
 Data Structure and Algorithms in Java 
