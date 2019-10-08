@@ -20,6 +20,7 @@
         <module>data_structure</module>
         <module>rolling_hash</module>
         <module>suffix_array_tree</module>
+        <module>randomized</module>
     </modules>
 
     <dependencies>
