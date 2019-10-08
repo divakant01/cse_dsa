@@ -8,17 +8,22 @@ import java.util.Arrays;
 public class LastSubstring extends SuffixArraY{
 
     public String lastSubstring(String s) {
-        int length=s.length();
 
-        if (s==null || s.isEmpty())
+
+        if(s==null || s.isEmpty() || s.length()<1 || s.length() > (4 * Math.pow(10,5)) || !s.equals(s.toLowerCase())){
             return "";
-
-        for (int i = 0; i < length; i++) {
-
         }
 
+        int length=s.length();
+        String max="";
 
-        return suffixArray;
+        for (int i = 0; i < length; i++) {
+            String sub = s.substring(i, length);
+            if (sub.compareTo(max) > 0)
+                max = sub;
+        }
+
+        return max;
     }
 
 }
